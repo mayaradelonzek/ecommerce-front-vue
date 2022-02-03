@@ -2,13 +2,13 @@
   <div>
     <b-row align-h="center">
       <b-col md="6">
-        <h3 class="mb-3">Cadastro de um novo Cliente</h3>
+        <h3 class="mb-3">Cadastro de um novo Fornecedor</h3>
       </b-col>
     </b-row>
 
     <b-row align-h="center">
       <b-col md="6">
-        <b-form-group label="Nome completo">
+        <b-form-group label="Nome fantasia">
           <b-form-input type="text" class="mb-3" />
         </b-form-group>
       </b-col>
@@ -16,7 +16,7 @@
 
     <b-row align-h="center">
       <b-col md="3">
-        <b-form-group label="CPF">
+        <b-form-group label="CNPJ">
           <b-form-input type="text" class="mb-3"/>
         </b-form-group>
       </b-col>
