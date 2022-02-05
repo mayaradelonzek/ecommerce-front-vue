@@ -10,13 +10,13 @@ const routes = [
 		component: Home
 	},
 	{
-		path: '/cliente',
-		name: 'cliente',
+		path: '/clientes',
+		name: 'clientes',
 		component: ClienteForm
 	},
     {
-		path: '/fornecedor',
-		name: 'fornecedor',
+		path: '/fornecedores',
+		name: 'fornecedores',
 		component: FornecedorForm
 	},
 ]
