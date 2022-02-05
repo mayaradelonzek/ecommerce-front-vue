@@ -1,9 +1,14 @@
 <template>
-  <p>Essa é a home</p>
+  <b-container class="mt-5">
+      <Clientes/>
+    </b-container>
 </template>
 
 <script>
+import Clientes from '../pages/Clientes.vue'
 export default {
-  name: "Home",
+  components: { Clientes },
+  name: "Home",  
+  
 }
 </script>

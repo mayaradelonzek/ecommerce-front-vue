@@ -2,7 +2,7 @@
   <div>
     <b-navbar toggleable="lg" type="dark" variant="danger">
       <b-container>
-        <b-navbar-brand href="#">Lojinha</b-navbar-brand>
+        <b-navbar-brand href="/">Lojinha</b-navbar-brand>
       </b-container>
     </b-navbar>
   </div>

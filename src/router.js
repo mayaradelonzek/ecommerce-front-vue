@@ -1,7 +1,7 @@
 import VueRouter from "vue-router";
 import Home from './components/Home'
-import ClienteForm from './components/ClienteForm'
-import FornecedorForm from './components/FornecedorForm'
+import NovoFornecedor from './pages/NovoFornecedor'
+import NovoCliente from './pages/NovoCliente'
 
 const routes = [
 	{
@@ -10,14 +10,14 @@ const routes = [
 		component: Home
 	},
 	{
-		path: '/clientes',
-		name: 'clientes',
-		component: ClienteForm
+		path: '/novo-cliente',
+		name: 'novoCliente',
+		component: NovoCliente
 	},
     {
-		path: '/fornecedores',
-		name: 'fornecedores',
-		component: FornecedorForm
+		path: '/novo-fornecedore',
+		name: 'novoFornecedor',
+		component: NovoFornecedor
 	},
 ]
 

@@ -220,22 +220,7 @@ export default {
         this.endereco.cidade = {valor: "", validation: null};
         this.message = "Cliente cadastrado com sucesso!";
       }
-    },
-    getClientes: async function (nome) {
-      const result = await fetch("http://localhost:8080/clientes?nome=" + nome)
-        .then((res) => res.json())
-        .then((res) => res)
-        .catch((error) => {
-          return {
-            error: true,
-            message: error,
-          };
-        });
-
-      if (!result.error) {
-        this.clientes = result;
-      }
-    },
+    },    
     isValidate: function (valor, error) {
       if (valor && valor !== "") {
         error.push(true);
