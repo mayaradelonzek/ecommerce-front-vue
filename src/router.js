@@ -15,7 +15,7 @@ const routes = [
 		component: NovoCliente
 	},
     {
-		path: '/novo-fornecedore',
+		path: '/novo-fornecedor',
 		name: 'novoFornecedor',
 		component: NovoFornecedor
 	},

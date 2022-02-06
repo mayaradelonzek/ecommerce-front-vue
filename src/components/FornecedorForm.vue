@@ -220,22 +220,7 @@ export default {
         this.endereco.cidade = {valor: "", validation: null};
         this.message = "Fornecedor cadastrado com sucesso!";
       }
-    },
-    getFornecedor: async function (nomeFantasia) {
-      const result = await fetch("http://localhost:8080/fornecedores?nomeFantasia=" + nomeFantasia)
-        .then((res) => res.json())
-        .then((res) => res)
-        .catch((error) => {
-          return {
-            error: true,
-            message: error,
-          };
-        });
-
-      if (!result.error) {
-        this.fornecedores = result;
-      }
-    },
+    },    
     isValidate: function (valor, error) {
       if (valor && valor !== "") {
         error.push(true);
